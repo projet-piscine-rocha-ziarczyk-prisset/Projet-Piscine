@@ -42,6 +42,7 @@
 
 	<li class="dir">Catégories
 		<ul>
+			<li class="first"><a href="vendrearticle.php" class="dir">Ajout récent</a></li>
 			<li class="first"><a href="#" class="dir">Livres</a>
 				<ul>
 					<li class="first"><a href="bd.php">BD</a></li>
@@ -75,7 +76,16 @@
 	
 </ul>
 				<li class="nav-item"><a class="nav-link" href="venteflash.php">Vente Flash</a></li>
- 				<li class="nav-item"><a class="nav-link" href="login.php">Vendre</a></li>
+
+				<ul id="nav" class="dropdown dropdown-horizontal">
+					<li class="dir">Vendre
+						<ul>
+							<li class="first"><a href="registervendeur.php" class="dir">Register</a></li>
+							<li class="first"><a href="loginvendeur.php" class="dir">Login</a></li>
+							</ul>
+						</li>
+					</ul>
+
  				<ul id="nav" class="dropdown dropdown-horizontal">
 
 	<li class="dir">Votre compte
